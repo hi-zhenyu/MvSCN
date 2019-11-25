@@ -15,13 +15,13 @@ from core.data import get_data
 
 
 # load config for NoisyMNIST 
-# config = load_config('./config/noisymnist.yaml')
+config = load_config('./config/noisymnist.yaml')
 
 # load config for Caltech101-20
-config = load_config('./config/Caltech101-20.yaml')
+# config = load_config('./config/Caltech101-20.yaml')
 
 # use pretrained SiameseNet. 
-# config['siam_pre_train'] = True
+config['siam_pre_train'] = True
 
 # LOAD DATA
 data_list = get_data(config)
