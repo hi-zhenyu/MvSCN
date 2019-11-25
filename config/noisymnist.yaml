@@ -1,0 +1,43 @@
+# Default Config
+
+dset: noisymnist                  # dataset
+experiment_id: default            # experiment id (we use current time as the id)
+lamb: 0.001                       # lamb to balance the Loss_spectral and Loss_multi_view
+n_clusters: 10                    # cluster number
+view_size: 2                      # view size
+views:
+use_code_space: true              # enable / disable embedding by AE
+arch:                             # Network architecher for SiameseNet and SpectralNet
+- size: 1024
+  type: relu
+- size: 1024
+  type: relu
+- size: 1024
+  type: relu
+- size: 10
+  type: relu
+
+# config for siameseNet
+siam_batch_size: 128              # minibatch size for siamese net
+siam_drop: 0.1                    # learning rate scheduler decay for siamese net
+siam_epoch: 400                   # number of training epochs for siamese net
+siam_k: 3                         # threshold where, for all k <= siam_k closest neighbors to x_i, (x_i, k) is considered
+                                  # a 'positive' pair by siamese net
+siam_lr: 0.0001                   # initial learning rate for siamese net
+siam_patience: 15                 # early stopping patience for siameseNet
+siam_pre_train: false              # using the pretrained SiameseNet
+siam_reg: null                    # regularization parameter for siamese net
+siamese_tot_pairs: 600000         # total number of pairs for siamese net
+
+# config for spectralNet
+
+n_nbrs: 5                         # number of nonzero entries (neighbors) to use for graph Laplacian affinity matrix
+scale_nbr: 2                      # neighbor used to determine scale of gaussian graph Laplacian
+spectral_drop: 0.1                # learning rate scheduler decay for spectral net
+spectral_epoch: 400               # number of training epochs for spectral net
+spectral_lr: 0.0001               # initial learning rate for spectral net
+spectral_patience: 15             # early stopping patience for spectral net
+spectral_reg: null                # regularization parameter for spectral net
+
+batch_size: 512                   # batch size
+batch_size_orthogonal: 512        # batch size for orthogonal
