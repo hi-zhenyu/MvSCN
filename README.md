@@ -19,7 +19,9 @@ python run.py
 ### Citation
 
 If you find our approach useful in your research, please consider citing:
-'''
+
+```
+
 @inproceedings{huang2019mvscn,
 	Author = {Huang, Zhenyu and Zhou, Joey Tianyi and Peng, Xi and Zhang, Changqing and Zhu, Hongyuan and Lv, Jiancheng},
 	Booktitle = {Proceedings of the Twenty-Eighth International Joint Conference on
@@ -30,4 +32,4 @@ If you find our approach useful in your research, please consider citing:
 	Title = {Multi-view Spectral Clustering Network},
 	Year = {2019},
 }
-'''
+```
