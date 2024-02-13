@@ -9,11 +9,11 @@ The details can be found in the IJCAI2019 paper [here](https://www.ijcai.org/pro
 - tensorflow
 - keras
 - munkres
-
+- pip install -r ./requirements.txt
 ### run
 
 ```
-python run.py
+python ./run.py
 ```
 
 ### Citation
