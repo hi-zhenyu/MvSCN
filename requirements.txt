@@ -1,0 +1,8 @@
+tensorflow==1.14.0
+keras==2.0.8
+PyYAML==5.1.1
+protobuf==3.20
+scikit-learn==0.21.2
+munkres==1.1.4
+pytz==2019.1
+h5py==2.10.0
