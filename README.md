@@ -20,7 +20,13 @@ SALMA
 
 ## How to run
 
-## 1. Create a virtual enviroments
+## 1. Clone the repo locally
+```
+git clone -b requirements https://github.com/elmondhir/MvSCN.git```
+cd MvSCN
+```
+
+## 2. Create a virtual enviroments
 
 ### Using ven
 
@@ -28,7 +34,13 @@ SALMA
 python3.7 -m venv "my_env_name"
 my_env_name\Scripts\activate.bat
 ```
+### Using conda
+```
+conda create -n "my_env_name" python=3.7
+conda activate my_env_name
+```
 
+## 1. Create a virtual enviroments
 
 - pip install -r ./requirements.txt
 
