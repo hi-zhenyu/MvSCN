@@ -43,7 +43,7 @@ conda activate my_env_name
 ## 3. install the requierment
 
 ```
-pip install -r ./requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 4. Launch run.py
