@@ -58,11 +58,13 @@ python run.py
 ## Option 2: using docker
 
 2.1. Build the Docker image:
+
     ```
     docker-compose build
     ```
 
 2.2. Start the application:
+
     ```
     docker-compose up
     ```
