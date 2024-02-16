@@ -5,8 +5,8 @@ The details can be found in the IJCAI2019 paper [here](https://www.ijcai.org/pro
 
 Note: this work was foked from user hi-zhenyu/MvSCN, and tested for academic purposes by
 CHAALAL Mohamed 
-ELIAS
-SALMA
+TALANTIKITE Salma 
+KESRAOUI Elias
 
 ### requirements
 - tensorflow==1.14.0
