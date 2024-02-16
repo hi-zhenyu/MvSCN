@@ -18,7 +18,7 @@ SALMA
 - pytz==2019.1
 - h5py==2.10.0
 
-### run
+## How to run
 
 ## 1. Create a virtual enviroments
 
