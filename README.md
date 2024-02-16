@@ -22,7 +22,7 @@ SALMA
 
 ## 1. Clone the repo locally
 ```
-git clone -b requirements https://github.com/elmondhir/MvSCN.git```
+git clone -b requirements https://github.com/elmondhir/MvSCN.git
 cd MvSCN
 ```
 
@@ -30,7 +30,7 @@ cd MvSCN
 
 ### Using ven
 
-```console
+```
 python3.7 -m venv "my_env_name"
 my_env_name\Scripts\activate.bat
 ```
