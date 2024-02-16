@@ -30,7 +30,7 @@ cd MvSCN
 
 ### Using ven
 
-```
+```console
 python3.7 -m venv "my_env_name"
 my_env_name\Scripts\activate.bat
 ```
@@ -40,14 +40,17 @@ conda create -n "my_env_name" python=3.7
 conda activate my_env_name
 ```
 
-## 1. Create a virtual enviroments
-
-- pip install -r ./requirements.txt
+## 3. install the requierment
 
 ```
-python ./run.py
+pip install -r ./requirements.txt
 ```
 
+## 4. Launch run.py
+
+```
+python run.py
+```
 ### Citation
 
 If you find our approach useful in your research, please consider citing:
