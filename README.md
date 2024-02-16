@@ -4,6 +4,7 @@ Simple implementation of our paper MvSCN.
 The details can be found in the IJCAI2019 paper [here](https://www.ijcai.org/proceedings/2019/356).
 
 Note: this work was foked from user hi-zhenyu/MvSCN, and tested for academic purposes by
+
 CHAALAL Mohamed 
 TALANTIKITE Salma 
 KESRAOUI Elias
