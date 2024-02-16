@@ -56,6 +56,8 @@ python run.py
 ```
 
 ## Option 2: using docker
+Make sure Docker is installed on your machine. If not, you can download and install Docker from the [official Docker website](https://www.docker.com/get-started).
+
 
 2.1. Build the Docker image:
 
