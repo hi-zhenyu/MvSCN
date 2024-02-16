@@ -22,8 +22,8 @@ KESRAOUI Elias
 - h5py==2.10.0
 
 ## How to run
-
-## 1. Clone the repo locally
+## Option 1: using the repository locally  
+## 1. Clone the repo
 ```
 git clone -b requirements https://github.com/elmondhir/MvSCN.git
 cd MvSCN
@@ -54,6 +54,19 @@ pip install -r requirements.txt
 ```
 python run.py
 ```
+
+## Option 2: using docker
+
+. Build the Docker image:
+    ```bash
+    docker-compose build
+    ```
+
+. Start the application:
+    ```bash
+    docker-compose up
+    ```
+
 ### Citation
 
 If you find our approach useful in your research, please consider citing:
