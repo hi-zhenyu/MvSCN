@@ -3,18 +3,73 @@
 Simple implementation of our paper MvSCN.
 The details can be found in the IJCAI2019 paper [here](https://www.ijcai.org/proceedings/2019/356).
 
-### requirements
-- Python 3.6
-- scikit-learn
-- tensorflow
-- keras
-- munkres
+Note: this work was foked from user `hi-zhenyu/MvSCN`, and tested for academic purposes by
 
-### run
+CHAALAL Mohamed 
+
+TALANTIKITE Salma 
+
+KESRAOUI Elias
+
+### requirements
+- tensorflow==1.14.0
+- keras==2.0.8
+- PyYAML==5.1.1
+- protobuf==3.20
+- scikit-learn==0.21.2
+- munkres==1.1.4
+- pytz==2019.1
+- h5py==2.10.0
+
+## How to run
+## Option 1: using the repository locally  
+## 1. Clone the repo
+```
+git clone -b requirements https://github.com/elmondhir/MvSCN.git
+cd MvSCN
+```
+
+## 2. Create a virtual enviroments
+
+### Using ven
+
+```
+python3.7 -m venv "my_env_name"
+my_env_name\Scripts\activate.bat
+```
+### Using conda
+```
+conda create -n "my_env_name" python=3.7
+conda activate my_env_name
+```
+
+## 3. install the requierment
+
+```
+pip install -r requirements.txt
+```
+
+## 4. Launch run.py
 
 ```
 python run.py
 ```
+
+## Option 2: using docker
+Make sure Docker is installed on your machine. If not, you can download and install Docker from the [official Docker website](https://www.docker.com/get-started).
+
+
+2.1. Build the Docker image:
+
+    ```
+    docker-compose build
+    ```
+
+2.2. Start the application:
+
+    ```
+    docker-compose up
+    ```
 
 ### Citation
 
