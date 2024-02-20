@@ -3,14 +3,6 @@
 Simple implementation of our paper MvSCN.
 The details can be found in the IJCAI2019 paper [here](https://www.ijcai.org/proceedings/2019/356).
 
-Note: this work was foked from user `hi-zhenyu/MvSCN`, and tested for academic purposes by
-
-CHAALAL Mohamed 
-
-TALANTIKITE Salma 
-
-KESRAOUI Elias
-
 ### requirements
 - tensorflow==1.14.0
 - keras==2.0.8
@@ -31,7 +23,7 @@ cd MvSCN
 
 ## 2. Create a virtual enviroments
 
-### Using ven
+### Using venv
 
 ```
 python3.7 -m venv "my_env_name"
@@ -88,3 +80,6 @@ If you find our approach useful in your research, please consider citing:
 	Year = {2019},
 }
 ```
+
+### Special Thanks
+A big thank you to [elmondhir](https://github.com/elmondhir) for the contributions to this project, including resolving dependency issues and adding Docker support.
